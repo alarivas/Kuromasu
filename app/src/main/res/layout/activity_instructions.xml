@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="Instrucciones"
+        android:paddingTop="50px"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/description"
+        android:paddingTop="100px"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:paddingTop="30px"
+        android:text="Reglas"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingTop="20px"
+        android:gravity="center"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:textStyle="italic"
+        android:text="@string/rule1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:paddingTop="20px"
+        android:gravity="center"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:textStyle="italic"
+        android:text="@string/rule2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingTop="20px"
+        android:gravity="center"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:textStyle="italic"
+        android:text="@string/rule3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="center"
+        android:paddingTop="20px"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:textStyle="italic"
+        android:text="@string/rule4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    </LinearLayout>

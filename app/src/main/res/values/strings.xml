@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kuromasu</string>
+    <string name="description">El juego Kuromasu usa un tablero rectangular, donde cada celda puede ser blanca o negra. El objetivo
+del juego es determinar el color, blanco o negro, de cada celda usando los números contenidos en
+algunas de las celdas como guías. </string>
+    <string name="rule1">El número contenido en una celda representa el número de celdas blancas visibles en forma
+vertical o horizontal desde dicha celda, incluyendo la celda conteniendo el número.</string>
+    <string name="rule2">Las celdas numeradas son blancas.</string>
+    <string name="rule3">Todas las celdas blancas están conectadas entre sí por un camino.</string>
+    <string name="rule4">No puede haber dos celdas negras que sean adyacentes vertical u horizontalmente.</string>
+
+</resources>
